@@ -1,0 +1,319 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.API/EVDMS.API.csproj": {}
+  },
+  "projects": {
+    "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.API/EVDMS.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.API/EVDMS.API.csproj",
+        "projectName": "EVDMS.API",
+        "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.API/EVDMS.API.csproj",
+        "packagesPath": "/Users/tri_nguyen/.nuget/packages/",
+        "outputPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tri_nguyen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj": {
+                "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj"
+              },
+              "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Infrastructure/EVDMS.Infrastructure.csproj": {
+                "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Infrastructure/EVDMS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj",
+        "projectName": "EVDMS.Application",
+        "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj",
+        "packagesPath": "/Users/tri_nguyen/.nuget/packages/",
+        "outputPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tri_nguyen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj": {
+                "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj",
+        "projectName": "EVDMS.Core",
+        "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj",
+        "packagesPath": "/Users/tri_nguyen/.nuget/packages/",
+        "outputPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tri_nguyen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Infrastructure/EVDMS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Infrastructure/EVDMS.Infrastructure.csproj",
+        "projectName": "EVDMS.Infrastructure",
+        "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Infrastructure/EVDMS.Infrastructure.csproj",
+        "packagesPath": "/Users/tri_nguyen/.nuget/packages/",
+        "outputPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tri_nguyen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj": {
+                "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/EVDMS.Application.csproj"
+              },
+              "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj": {
+                "projectPath": "/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/EVDMS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Konscious.Security.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

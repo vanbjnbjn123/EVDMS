@@ -1,0 +1,11 @@
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/bin/Debug/net9.0/EVDMS.Core.deps.json
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/bin/Debug/net9.0/EVDMS.Core.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/bin/Debug/net9.0/EVDMS.Core.pdb
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/EVDMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/EVDMS.Core.AssemblyInfoInputs.cache
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/EVDMS.Core.AssemblyInfo.cs
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/EVDMS.Core.csproj.CoreCompileInputs.cache
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/EVDMS.Core.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/refint/EVDMS.Core.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/EVDMS.Core.pdb
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Core/obj/Debug/net9.0/ref/EVDMS.Core.dll

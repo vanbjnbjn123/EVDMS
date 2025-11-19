@@ -1,0 +1,15 @@
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/bin/Debug/net9.0/EVDMS.Application.deps.json
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/bin/Debug/net9.0/EVDMS.Application.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/bin/Debug/net9.0/EVDMS.Application.pdb
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/bin/Debug/net9.0/EVDMS.Core.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/bin/Debug/net9.0/EVDMS.Core.pdb
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.csproj.AssemblyReference.cache
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.AssemblyInfoInputs.cache
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.AssemblyInfo.cs
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.csproj.CoreCompileInputs.cache
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Ap.BFE978C5.Up2Date
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/refint/EVDMS.Application.dll
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/EVDMS.Application.pdb
+/Users/tri_nguyen/Me/study/CNPM/Project/EVDMS.Application/obj/Debug/net9.0/ref/EVDMS.Application.dll
