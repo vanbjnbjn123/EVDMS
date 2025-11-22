@@ -29,11 +29,6 @@ public class InventoryConfiguration : AuditableConfiguration<Inventory>
             .WithMany(d => d.Inventories)
             .HasForeignKey(e => e.DealerId)
             .OnDelete(DeleteBehavior.Restrict);
-            
-        builder.HasOne(e => e.Manufacturer)
-            .WithMany(m => m.Inventories)
-            .HasForeignKey(e => e.ManufacturerId)
-            .OnDelete(DeleteBehavior.Restrict);
 
         builder.HasOne(e => e.Product)
             .WithMany(p => p.Inventories)

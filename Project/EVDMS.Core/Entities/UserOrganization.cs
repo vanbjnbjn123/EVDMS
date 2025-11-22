@@ -13,10 +13,8 @@ public class UserOrganization : Auditable
     
     // Organization IDs - only one should be populated based on OrganizationType
     public Guid? DealerId { get; set; } // Populated if OrganizationType = "Dealer"
-    public Guid? ManufacturerId { get; set; } // Populated if OrganizationType = "Manufacturer"
 
     // Navigation properties
     public User User { get; set; } = null!;
     public Dealer? Dealer { get; set; }
-    public Manufacturer? Manufacturer { get; set; }
 }

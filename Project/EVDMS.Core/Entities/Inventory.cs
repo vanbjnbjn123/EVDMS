@@ -11,7 +11,6 @@ public class Inventory : EntityBase
 {
     public Guid? DealerId { get; set; }
     public Guid ProductId { get; set; }
-    public Guid? ManufacturerId { get; set; }
     
     // Stock Information
     public int QuantityInStock { get; set; }
@@ -48,6 +47,5 @@ public class Inventory : EntityBase
     // Navigation properties
     public Dealer? Dealer { get; set; }
     public Product? Product { get; set; }
-    public Manufacturer? Manufacturer { get; set; }
     public ICollection<TestDriveAppointment>? TestDriveAppointments { get; set; }
 }

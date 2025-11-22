@@ -32,15 +32,9 @@ public class UserOrganizationConfiguration : AuditableConfiguration<UserOrganiza
             .HasForeignKey(uo => uo.DealerId)
             .OnDelete(DeleteBehavior.Cascade);
         
-        builder.HasOne(uo => uo.Manufacturer)
-            .WithMany(m => m.UserOrganizations)
-            .HasForeignKey(uo => uo.ManufacturerId)
-            .OnDelete(DeleteBehavior.Cascade);
-        
         // Indexes for performance
         builder.HasIndex(uo => uo.UserId);
         builder.HasIndex(uo => uo.DealerId);
-        builder.HasIndex(uo => uo.ManufacturerId);
         builder.HasIndex(uo => uo.OrganizationType);
     }
 }
